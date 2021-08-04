@@ -6,7 +6,10 @@ namespace atividade2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            ConversorDeMoeda a = new ConversorDeMoeda();
+            a.Pcotacao();
+            a.Pcomprar();
+            Console.WriteLine(a.ToString());
         }
     }
 }
