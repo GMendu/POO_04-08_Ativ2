@@ -12,11 +12,11 @@ namespace atividade3
             P1.Idades("primeira");
             P2.Nomes("segunda");
             P2.Idades("segunda");
-            Console.ReadKey();
             if(P1.Idd > P2.Idd)
-                Console.WriteLine("O maior é o primeiro");
+                Console.WriteLine($"A pessoa mais velha é {P1.Nome}");
             else
-                Console.WriteLine("O maior é o segundo");
+                Console.WriteLine($"A pessoa mais velha é {P2.Nome}");
+            Console.ReadKey();
         }
     }
 }
